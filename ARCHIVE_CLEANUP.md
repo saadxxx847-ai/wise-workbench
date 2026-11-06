@@ -3,8 +3,8 @@
 - 完成时间：2026-11-06T19:04:18.7698044+08:00（Asia/Shanghai）。
 - 用户明确确认：GitHub 归档后卸载桌面软件，删除整个 `D:\python_learn` 与桌面快捷方式。
 - 源码与数据初始提交：`4aa72b43a8cee953a4f94258e89fdd4a0499ee84`。
-- 仓库：[saadxxx847-ai/-](https://github.com/saadxxx847-ai/-)。
-- Windows 完整运行包：[v1.0.0 Release](https://github.com/saadxxx847-ai/-/releases/tag/v1.0.0)。
+- 仓库：[saadxxx847-ai/-](https://github.com/saadxxx847-ai/wise-workbench)。
+- Windows 完整运行包：[v1.0.0 Release](https://github.com/saadxxx847-ai/wise-workbench/releases/tag/v1.0.0)。
 
 ## 删除前独立恢复核验
 
@@ -24,3 +24,5 @@
 - 原有 `D:\Python 3.11\python.exe`、PyCharm 安装及系统 WebView2 等共享软件保留，未卸载共享软件或清空全局缓存。
 
 以后恢复请遵循仓库 README：下载完整 Release，解压后运行 `restore_desktop.ps1`；从源码继续开发可重新创建虚拟环境。数据是归档时的快照，恢复后不会自动同步 GitHub。
+
+2026-11-06 仓库维护补记：仓库已按用户要求更名为 `wise-workbench`（哲工作台），核验仍为私密（Private）；原运行包与数据校验结果不变。
