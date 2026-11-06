@@ -1,0 +1,99 @@
+test_http_lifecycle_random_port_and_resources (test_desktop.DesktopTests.test_http_lifecycle_random_port_and_resources) ... ok
+test_packaged_app_uses_external_database_and_fails_if_missing (test_desktop.DesktopTests.test_packaged_app_uses_external_database_and_fails_if_missing) ... ok
+test_save_survives_desktop_close_and_new_server (test_desktop.DesktopTests.test_save_survives_desktop_close_and_new_server) ... ok
+test_self_check_does_not_change_tasks (test_desktop.DesktopTests.test_self_check_does_not_change_tasks) ... ok
+test_single_instance_and_release_across_processes (test_desktop.DesktopTests.test_single_instance_and_release_across_processes) ... ok
+test_already_running_also_opens_browser (test_launcher.LauncherTests.test_already_running_also_opens_browser) ... ok
+test_browser_waits_until_http_ready (test_launcher.LauncherTests.test_browser_waits_until_http_ready) ... 已打开默认浏览器：http://127.0.0.1:55638/
+ok
+test_double_click_entry_requests_browser_open (test_launcher.LauncherTests.test_double_click_entry_requests_browser_open) ... ok
+test_bad_json_and_records_can_be_fixed_and_retried (test_project.ProjectTests.test_bad_json_and_records_can_be_fixed_and_retried) ... ok
+test_concurrent_first_reads_import_once (test_project.ProjectTests.test_concurrent_first_reads_import_once) ... ok
+test_corrupt_database_reports_error (test_project.ProjectTests.test_corrupt_database_reports_error) ... ok
+test_database_is_authoritative_after_import (test_project.ProjectTests.test_database_is_authoritative_after_import) ... ok
+test_delete_all_does_not_reimport_json (test_project.ProjectTests.test_delete_all_does_not_reimport_json) ... ok
+test_empty_name_optional_date_and_sql_parameters (test_project.ProjectTests.test_empty_name_optional_date_and_sql_parameters) ... ok
+test_empty_start_and_missing_json (test_project.ProjectTests.test_empty_start_and_missing_json) ... ok
+test_failed_save_rolls_back_and_keeps_memory (test_project.ProjectTests.test_failed_save_rolls_back_and_keeps_memory) ... ok
+test_first_migration_and_restart_preserve_json (test_project.ProjectTests.test_first_migration_and_restart_preserve_json) ... ok
+test_imports_are_quiet_and_do_not_create_database (test_project.ProjectTests.test_imports_are_quiet_and_do_not_create_database) ... ok
+test_invalid_numbers_repeated_states_and_long_number (test_project.ProjectTests.test_invalid_numbers_repeated_states_and_long_number) ... ok
+test_legacy_tasks_without_dates (test_project.ProjectTests.test_legacy_tasks_without_dates) ... ok
+test_operations_numbers_dates_and_reload (test_project.ProjectTests.test_operations_numbers_dates_and_reload) ... ok
+test_search_combinations_and_original_numbers (test_project.ProjectTests.test_search_combinations_and_original_numbers) ... ok
+test_stale_save_is_rejected (test_project.ProjectTests.test_stale_save_is_rejected) ... ok
+test_task_objects_and_independent_methods (test_project.ProjectTests.test_task_objects_and_independent_methods) ... ok
+test_add_validation_and_preserved_input (test_web.WebTests.test_add_validation_and_preserved_input) ... ok
+test_cli_content_update_conflicts_with_old_web_form (test_web.WebTests.test_cli_content_update_conflicts_with_old_web_form) ... ok
+test_cli_preserves_identity_and_stale_snapshot_is_rejected (test_web.WebTests.test_cli_preserves_identity_and_stale_snapshot_is_rejected) ... ok
+test_concurrent_distinct_adds_and_same_request (test_web.WebTests.test_concurrent_distinct_adds_and_same_request) ... ok
+test_concurrent_same_row_only_one_wins (test_web.WebTests.test_concurrent_same_row_only_one_wins) ... ok
+test_csrf_signature_origin_and_session_binding (test_web.WebTests.test_csrf_signature_origin_and_session_binding) ... ok
+test_dashboard_statistics_filters_and_empty_search (test_web.WebTests.test_dashboard_statistics_filters_and_empty_search) ... ok
+test_deleted_identity_never_reused_and_cli_invalidates_old_page (test_web.WebTests.test_deleted_identity_never_reused_and_cli_invalidates_old_page) ... ok
+test_distinct_tasks_update_independently_and_filtered_identity (test_web.WebTests.test_distinct_tasks_update_independently_and_filtered_identity) ... ok
+test_double_submit_add_and_changed_replay (test_web.WebTests.test_double_submit_add_and_changed_replay) ... ok
+test_empty_database_does_not_reimport (test_web.WebTests.test_empty_database_does_not_reimport) ... ok
+test_expired_command_is_rejected (test_web.WebTests.test_expired_command_is_rejected) ... ok
+test_failed_web_write_rolls_back_command_and_revision (test_web.WebTests.test_failed_web_write_rolls_back_command_and_revision) ... ERROR:web_app:Database operation failed
+Traceback (most recent call last):
+  File "D:\python_learn\storage.py", line 206, in apply
+    connection.execute("UPDATE tasks SET done=?,version=version+1 WHERE uid=?", (int(action == "complete"), uid))
+sqlite3.IntegrityError: blocked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python_learn\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python_learn\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python_learn\web_app.py", line 124, in mutate
+    message = store.apply(payload["nonce"], action, payload["uid"], payload["version"],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python_learn\storage.py", line 214, in apply
+    raise StorageError("保存失败，本次操作未写入。请稍后重试。") from error
+storage.StorageError: 保存失败，本次操作未写入。请稍后重试。
+ok
+test_full_lifecycle_persists_across_new_app_and_reload (test_web.WebTests.test_full_lifecycle_persists_across_new_app_and_reload) ... ok
+test_html_escaping_search_task_attributes_and_sql (test_web.WebTests.test_html_escaping_search_task_attributes_and_sql) ... ok
+test_old_schema_backup_migration_and_idempotent_restart (test_web.WebTests.test_old_schema_backup_migration_and_idempotent_restart) ... ok
+test_request_limits_methods_hosts_and_duplicate_fields (test_web.WebTests.test_request_limits_methods_hosts_and_duplicate_fields) ... ok
+test_stale_tabs_conflict_and_old_replay_cannot_undo_restore (test_web.WebTests.test_stale_tabs_conflict_and_old_replay_cannot_undo_restore) ... ok
+test_unavailable_database_renders_recoverable_error (test_web.WebTests.test_unavailable_database_renders_recoverable_error) ... ERROR:web_app:Database operation failed
+Traceback (most recent call last):
+  File "D:\python_learn\storage.py", line 176, in snapshot
+    with _database(self.path, self.legacy) as connection:
+  File "D:\Python 3.11\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\python_learn\storage.py", line 81, in _database
+    connection.execute("BEGIN IMMEDIATE")
+sqlite3.DatabaseError: file is not a database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python_learn\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python_learn\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python_learn\web_app.py", line 91, in board
+    return render_board()
+           ^^^^^^^^^^^^^^
+  File "D:\python_learn\web_app.py", line 75, in render_board
+    tasks, revision = store.snapshot()
+                      ^^^^^^^^^^^^^^^^
+  File "D:\python_learn\storage.py", line 181, in snapshot
+    raise StorageError("读取任务失败，请检查数据库是否可用。") from error
+storage.StorageError: 读取任务失败，请检查数据库是否可用。
+ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 13.857s
+
+OK

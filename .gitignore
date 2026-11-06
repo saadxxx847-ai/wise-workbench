@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.web-secret
+tasks.db-*
+*.log
+.web.pid
+.web.lock
+.desktop/
+.desktop-build/
+desktop/
+.idea/
+release/
+*.lnk

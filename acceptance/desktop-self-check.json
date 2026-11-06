@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-06T18:37:31.494330+08:00",
+  "database": "D:\\python_learn\\tasks.db",
+  "frozen": true,
+  "resources": {
+    "/": {
+      "status": 200,
+      "bytes": 49665
+    },
+    "static/style.css": {
+      "status": 200,
+      "bytes": 36089
+    },
+    "static/app.js": {
+      "status": 200,
+      "bytes": 1912
+    },
+    "static/favicon.svg": {
+      "status": 200,
+      "bytes": 211
+    }
+  }
+}

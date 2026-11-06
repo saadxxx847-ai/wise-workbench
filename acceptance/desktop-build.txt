@@ -1,0 +1,110 @@
+177 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+177 INFO: Python: 3.11.9
+207 INFO: Platform: Windows-10-10.0.26200-SP0
+207 INFO: Python environment: D:\python_learn\.venv
+319 INFO: Module search paths (PYTHONPATH):
+['D:\\python_learn',
+ 'D:\\Python 3.11\\python311.zip',
+ 'D:\\Python 3.11\\DLLs',
+ 'D:\\Python 3.11\\Lib',
+ 'D:\\Python 3.11',
+ 'D:\\python_learn\\.venv',
+ 'D:\\python_learn\\.venv\\Lib\\site-packages',
+ 'D:\\python_learn']
+727 INFO: Appending 'datas' from .spec
+731 INFO: checking Analysis
+731 INFO: Building Analysis because Analysis-00.toc is non existent
+733 INFO: Looking for Python shared library...
+733 INFO: Using Python shared library: D:\Python 3.11\python311.dll
+733 INFO: Running Analysis Analysis-00.toc
+733 INFO: Target bytecode optimization level: 0
+733 INFO: Initializing module dependency graph...
+734 INFO: Initializing module graph hook caches...
+751 INFO: Analyzing modules for base_library.zip ...
+1956 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2011 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2911 INFO: Processing standard module hook 'hook-math.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3282 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4626 INFO: Caching module dependency graph...
+4670 INFO: Analyzing D:\python_learn\desktop_app.py
+4699 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5182 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5654 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+5655 INFO: SetuptoolsInfo: initializing cached setuptools info...
+6874 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6959 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7981 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8037 INFO: Processing standard module hook 'hook-webbrowser.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8313 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8581 INFO: Processing standard module hook 'hook-jinja2.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9308 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9309 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+9317 INFO: Processing standard module hook 'hook-setuptools.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9334 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9335 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+9823 INFO: Processing standard module hook 'hook-distutils.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9868 INFO: Processing standard module hook 'hook-distutils.util.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9913 INFO: Processing standard module hook 'hook-_osx_support.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9951 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10244 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10245 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+10257 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10259 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10271 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10272 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+10371 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10372 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+10893 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10894 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+11437 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11438 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+11587 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11621 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11622 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+11675 INFO: Processing standard module hook 'hook-sqlite3.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12109 INFO: Processing standard module hook 'hook-webview.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\webview\\__pyinstaller'
+12637 INFO: Processing standard module hook 'hook-clr.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\pythonnet\\_pyinstaller'
+12684 INFO: Processing standard module hook 'hook-clr_loader.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+12821 INFO: Processing standard module hook 'hook-pycparser.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13412 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13506 INFO: Processing module hooks (post-graph stage)...
+13507 WARNING: Hidden import "pycparser.lextab" not found!
+13507 WARNING: Hidden import "pycparser.yacctab" not found!
+14231 INFO: Performing binary vs. data reclassification (35 entries)
+14263 INFO: Looking for ctypes DLLs
+14399 INFO: Analyzing run-time hooks ...
+14402 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+14408 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+14412 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+14415 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'D:\\python_learn\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+14433 INFO: Creating base_library.zip...
+14462 INFO: Looking for dynamic libraries
+15240 INFO: Extra DLL search directories (AddDllDirectory): []
+15241 INFO: Extra DLL search directories (PATH): []
+16263 INFO: Warnings written to D:\python_learn\.desktop-build\desktop_app\warn-desktop_app.txt
+16341 INFO: Graph cross-reference written to D:\python_learn\.desktop-build\desktop_app\xref-desktop_app.html
+16376 INFO: checking PYZ
+16377 INFO: Building PYZ because PYZ-00.toc is non existent
+16377 INFO: Building PYZ (ZlibArchive) D:\python_learn\.desktop-build\desktop_app\PYZ-00.pyz
+17131 INFO: Building PYZ (ZlibArchive) D:\python_learn\.desktop-build\desktop_app\PYZ-00.pyz completed successfully.
+17153 INFO: checking PKG
+17153 INFO: Building PKG because PKG-00.toc is non existent
+17153 INFO: Building PKG (CArchive) 哲店长工作台.pkg
+17185 INFO: Building PKG (CArchive) 哲店长工作台.pkg completed successfully.
+17186 INFO: Bootloader D:\python_learn\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+17186 INFO: checking EXE
+17187 INFO: Building EXE because EXE-00.toc is non existent
+17187 INFO: Building EXE from EXE-00.toc
+17187 INFO: Copying bootloader EXE to D:\python_learn\.desktop-build\desktop_app\哲店长工作台.exe
+17194 INFO: Copying icon to EXE
+17201 INFO: Copying 0 resources to EXE
+17201 INFO: Embedding manifest in EXE
+17207 INFO: Appending PKG archive to EXE
+17214 INFO: Fixing EXE headers
+17315 INFO: Building EXE from EXE-00.toc completed successfully.
+17317 INFO: checking COLLECT
+17317 INFO: Building COLLECT because COLLECT-00.toc is non existent
+17318 INFO: Building COLLECT COLLECT-00.toc
+17626 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+17630 INFO: Build complete! The results are available in: D:\python_learn\desktop
+Built: D:\python_learn\desktop\鍝插簵闀垮伐浣滃彴\鍝插簵闀垮伐浣滃彴.exe

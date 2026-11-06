@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-06T18:19:01.872113+08:00",
+  "current_counts": {
+    "total": 19,
+    "done": 8,
+    "pending": 11
+  },
+  "original_tasks_preserved": 18,
+  "integrity": "ok",
+  "http_status": 200,
+  "cli_read": "passed",
+  "backup": "verified",
+  "note": "Live workbench received new task/state operations after the original baseline verification. All preserved."
+}
