@@ -1,7 +1,11 @@
 <!-- github-archive -->
-# GitHub 归档与恢复
+# 哲工作台（Wise Workbench）
 
-本项目已按用户要求归档至 https://github.com/saadxxx847-ai/- 。归档核验后将卸载本机软件、删除 `D:\python_learn` 和桌面快捷方式；不删除原有 Python、PyCharm、WebView2 等共享软件。最终执行结果见仓库中的 `ARCHIVE_CLEANUP.md`。
+《绝区零》哲（Wise）主题的个人任务管理器。仓库当前为私密（Private）。
+
+## GitHub 归档与恢复
+
+本项目已按用户要求归档至 https://github.com/saadxxx847-ai/wise-workbench 。归档核验后将卸载本机软件、删除 `D:\python_learn` 和桌面快捷方式；不删除原有 Python、PyCharm、WebView2 等共享软件。最终执行结果见仓库中的 `ARCHIVE_CLEANUP.md`。
 
 源码、学习记录、自动测试、界面资源、正式 `tasks.db`、旧 JSON 和数据库备份保存在 Git；完整 Windows 桌面运行包保存在 **Releases / v1.0.0**，不把虚拟环境、浏览器缓存、签名密钥和构建缓存提交到仓库。
 
@@ -18,7 +22,7 @@
 使用 Python 3.11（原验收为 3.11.9）：
 
 ```powershell
-git clone https://github.com/saadxxx847-ai/-.git python_learn
+git clone https://github.com/saadxxx847-ai/wise-workbench.git python_learn
 cd python_learn
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-build.txt
